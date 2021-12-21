@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="assignment3" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-n 8 cmake-build-debug/assignment3" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/" PASS_PARENT_ENVS_2="true" PROJECT_NAME="itmo_term_1_parallel_algorithms" TARGET_NAME="assignment3" CONFIG_NAME="Debug" RUN_PATH="/opt/homebrew/bin/mpirun">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

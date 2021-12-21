@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.21)
+project(itmo_term_1_parallel_algorithms)
+
+set(CMAKE_CXX_STANDARD 17)
+
+#set(CMAKE_CXX_COMPILER "/opt/homebrew/bin/g++-11")
+#SET(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} -fopenmp")
+set(CMAKE_CXX_COMPILER "/opt/homebrew/bin/mpic++")
+
+add_executable(assignment0 assignments/0/main.cpp)
+add_executable(assignment1 assignments/1/main.cpp)
+add_executable(assignment2 assignments/2/main.cpp)
+add_executable(assignment3 assignments/3/Assignment3.cpp)
+add_executable(assignment4 assignments/4/Assignment4.cpp)
+add_executable(assignment5 assignments/5/Assignment5.cpp)
+add_executable(assignment5ExecutionTime assignments/5/Assignment5ExecutionTime.cpp)
+add_executable(assignment6 assignments/6/Assignment6.cpp)
+add_executable(assignment7 assignments/7/Assignment7.cpp)
+add_executable(assignment8 assignments/8/Assignment8.cpp)
+
+include_directories(/opt/homebrew/Cellar/libomp/13.0.0/)
+include_directories(/opt/homebrew/Cellar/open-mpi/4.1.2/)
