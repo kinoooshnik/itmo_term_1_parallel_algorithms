@@ -17,6 +17,11 @@ add_executable(assignment5ExecutionTime assignments/5/Assignment5ExecutionTime.c
 add_executable(assignment6 assignments/6/Assignment6.cpp)
 add_executable(assignment7 assignments/7/Assignment7.cpp)
 add_executable(assignment8 assignments/8/Assignment8.cpp)
+add_executable(assignment9 assignments/9/Assignment9.cpp)
+add_executable(assignment10 assignments/10/Assignment10.cpp)
+add_executable(assignment11 assignments/11/Assignment11.cpp)
+add_executable(assignment12 assignments/12/Assignment12.cpp)
+add_executable(assignment13 assignments/13/Assignment13.cpp)
 
 include_directories(/opt/homebrew/Cellar/libomp/13.0.0/)
 include_directories(/opt/homebrew/Cellar/open-mpi/4.1.2/)
