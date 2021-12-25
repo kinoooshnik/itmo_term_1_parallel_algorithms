@@ -30,6 +30,8 @@ add_executable(assignment18Master assignments/18/Assignment18_master.cpp)
 add_executable(assignment18Slave assignments/18/Assignment18_slave.cpp)
 add_executable(assignment19Server assignments/19/Assignment19_server.cpp)
 add_executable(assignment19Client assignments/19/Assignment19_client.cpp)
+add_executable(assignment20 assignments/20/Assignment20.cpp)
+add_executable(assignment21 assignments/21/Assignment21.cpp)
 
 include_directories(/opt/homebrew/Cellar/libomp/13.0.0/)
 include_directories(/opt/homebrew/Cellar/open-mpi/4.1.2/)
